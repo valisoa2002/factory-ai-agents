@@ -1,0 +1,13 @@
+# Phase 2 (Extraction) — requis maintenant
+pandas>=2.2
+openpyxl>=3.1
+numpy>=1.26
+PyYAML>=6.0
+
+# Phase 3-4 (Qualité, Historisation) — à activer bientôt
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+
+# Phase 8 (Machine Learning) — plus tard
+scikit-learn>=1.4
+shap>=0.45

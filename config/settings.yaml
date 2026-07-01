@@ -1,0 +1,30 @@
+# =============================================================================
+# Configuration centrale du pipeline TRS / Cadences
+# =============================================================================
+# Ce fichier est la SEULE source de vérité pour les paramètres du pipeline.
+# Ne jamais coder en dur (hardcoder) un nom de feuille, un chemin ou un seuil
+# dans le code Python : tout doit passer par ce fichier.
+
+excel:
+  # Nom exact de la feuille à extraire (sensible à la casse et aux accents)
+  required_sheet: "Détails Cadences"
+  # Ligne où commence l'en-tête réel (0 = première ligne). À ajuster après
+  # exploration si l'export Excel contient des lignes de titre au-dessus du
+  # tableau.
+  header_row: 0
+
+paths:
+  raw_data_dir: "data/raw"          # Exports Excel bruts, jamais modifiés
+  processed_data_dir: "data/processed"  # Données nettoyées / historisées
+  reports_dir: "reports"            # Rapports de qualité et d'exploration
+  logs_dir: "logs"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
+  file_name: "pipeline.log"
+
+extraction:
+  # Colonnes techniques ajoutées automatiquement à chaque extraction,
+  # utiles pour la traçabilité et l'historisation (Phase 4).
+  add_technical_columns: true
