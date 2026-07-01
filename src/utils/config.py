@@ -44,11 +44,19 @@ class ExtractionConfig:
 
 
 @dataclass(frozen=True)
+class QualityConfig:
+    formula_tolerance: dict  # {"temps_net": 0.5, "ecart": 1.0, "trs": 1.0}
+    percentage_tolerance: float = 1.0
+    min_plausible_cadence_theorique: float = 0.5
+
+
+@dataclass(frozen=True)
 class AppConfig:
     excel: ExcelConfig
     paths: PathsConfig
     logging: LoggingConfig
     extraction: ExtractionConfig
+    quality: QualityConfig
     project_root: Path
 
     def ensure_directories(self) -> None:
@@ -91,12 +99,14 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
 
     logging_cfg = LoggingConfig(**raw["logging"])
     extraction_cfg = ExtractionConfig(**raw.get("extraction", {}))
+    quality_cfg = QualityConfig(**raw.get("quality", {"formula_tolerance": {}}))
 
     config = AppConfig(
         excel=excel,
         paths=paths,
         logging=logging_cfg,
         extraction=extraction_cfg,
+        quality=quality_cfg,
         project_root=project_root,
     )
     config.ensure_directories()

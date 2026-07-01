@@ -28,3 +28,19 @@ extraction:
   # Colonnes techniques ajoutées automatiquement à chaque extraction,
   # utiles pour la traçabilité et l'historisation (Phase 4).
   add_technical_columns: true
+
+quality:
+  # Tolérances de rapprochement des formules, en unité de la colonne.
+  # Confirmées empiriquement le 2026-07-01 sur un export réel (38 lignes) :
+  # Temps Net exact, Écart et TRS exacts hors 1 ligne à donnée source erronée.
+  formula_tolerance:
+    temps_net: 0.5
+    ecart: 1.0
+    trs: 1.0
+  # Tolérance de dépassement acceptée sur les colonnes en %
+  # (arrondis de l'export). Au-delà, l'anomalie est bloquante.
+  percentage_tolerance: 1.0
+  # En-dessous de ce seuil, une Cadence Théorique est jugée suspecte
+  # (probable erreur de saisie / décalage de virgule) et signalée pour
+  # revue humaine plutôt que rejetée automatiquement.
+  min_plausible_cadence_theorique: 0.5

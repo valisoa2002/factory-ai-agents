@@ -1,0 +1,147 @@
+{
+  "source_file": "Rapport_Production_1782880266815.xlsx",
+  "n_rows_analyzed": 38,
+  "generated_at": "2026-07-01T14:16:26.760818",
+  "counts_by_severity": {
+    "BLOQUANT": 12,
+    "AVERTISSEMENT": 2,
+    "INFO": 1
+  },
+  "anomalies": [
+    {
+      "rule": "missing_value",
+      "severity": "INFO",
+      "message": "Valeur manquante sur 'Cadence Réelle (pcs/min)' (attendu car Qté Produite = 0)",
+      "row_index": 32,
+      "code_of": "WH/MO/54000",
+      "machine": "Souffleuse semi automatique 1",
+      "column": "Cadence Réelle (pcs/min)"
+    },
+    {
+      "rule": "ecart_formula",
+      "severity": "AVERTISSEMENT",
+      "message": "'Écart (%)' = 1770.91 ne correspond pas à la valeur calculée (1966.67), écart = 195.76",
+      "row_index": 6,
+      "code_of": "WH/MO/53958_FARDELEUSE",
+      "machine": "Fardeleuse automatique N°1",
+      "column": "Écart (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 1870.91% hors plage [0, 100] — valeur impossible",
+      "row_index": 6,
+      "code_of": "WH/MO/53958_FARDELEUSE",
+      "machine": "Fardeleuse automatique N°1",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 226.15% hors plage [0, 100] — valeur impossible",
+      "row_index": 7,
+      "code_of": "WH/MO/53958_REMPLISSUSE",
+      "machine": "Etiquetteuse automatique N°1",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 103.99% hors plage [0, 100] — valeur impossible",
+      "row_index": 11,
+      "code_of": "WH/MO/53996",
+      "machine": "Remplisseuse automatique N°01",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 114.83% hors plage [0, 100] — valeur impossible",
+      "row_index": 17,
+      "code_of": "WH/MO/53985_part03",
+      "machine": "Ensacheuse automatique N° 5",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 111.26% hors plage [0, 100] — valeur impossible",
+      "row_index": 18,
+      "code_of": "WH/MO/53953",
+      "machine": "Remplisseuse automatique N°02",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 108.24% hors plage [0, 100] — valeur impossible",
+      "row_index": 30,
+      "code_of": "WH/MO/54001",
+      "machine": "Souffleuse semi automatique 1",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 246.31% hors plage [0, 100] — valeur impossible",
+      "row_index": 33,
+      "code_of": "WH/MO/53917_REMPLISSEUSE",
+      "machine": "Remplisseuse automatique N°02",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'Performance (%)' = 145.21% hors plage [0, 100] — valeur impossible",
+      "row_index": 36,
+      "code_of": "WH/MO/53917_FARDELEUSE",
+      "machine": "Fardeleuse automatique N°1",
+      "column": "Performance (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'TRS (%)' = 1870.91% hors plage [0, 100] — valeur impossible",
+      "row_index": 6,
+      "code_of": "WH/MO/53958_FARDELEUSE",
+      "machine": "Fardeleuse automatique N°1",
+      "column": "TRS (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'TRS (%)' = 220.69% hors plage [0, 100] — valeur impossible",
+      "row_index": 7,
+      "code_of": "WH/MO/53958_REMPLISSUSE",
+      "machine": "Etiquetteuse automatique N°1",
+      "column": "TRS (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'TRS (%)' = 191.83% hors plage [0, 100] — valeur impossible",
+      "row_index": 33,
+      "code_of": "WH/MO/53917_REMPLISSEUSE",
+      "machine": "Remplisseuse automatique N°02",
+      "column": "TRS (%)"
+    },
+    {
+      "rule": "percentage_out_of_bounds",
+      "severity": "BLOQUANT",
+      "message": "'TRS (%)' = 116.4% hors plage [0, 100] — valeur impossible",
+      "row_index": 36,
+      "code_of": "WH/MO/53917_FARDELEUSE",
+      "machine": "Fardeleuse automatique N°1",
+      "column": "TRS (%)"
+    },
+    {
+      "rule": "suspicious_low_cadence_theorique",
+      "severity": "AVERTISSEMENT",
+      "message": "'Cadence Théorique (pcs/min)' = 0.03 pcs/min, anormalement bas (seuil 0.5) — vérifier une possible erreur de saisie",
+      "row_index": 6,
+      "code_of": "WH/MO/53958_FARDELEUSE",
+      "machine": "Fardeleuse automatique N°1",
+      "column": "Cadence Théorique (pcs/min)"
+    }
+  ]
+}
