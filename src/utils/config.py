@@ -11,7 +11,7 @@ dans le code ?
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 import yaml
@@ -48,6 +48,8 @@ class QualityConfig:
     formula_tolerance: dict  # {"temps_net": 0.5, "ecart": 1.0, "trs": 1.0}
     percentage_tolerance: float = 1.0
     min_plausible_cadence_theorique: float = 0.5
+    performance_ceiling: dict = field(default_factory=lambda: {"warning_max": 100, "blocking_max": 120})
+    trs_ceiling: dict = field(default_factory=lambda: {"warning_max": 100, "blocking_max": 120})
 
 
 @dataclass(frozen=True)

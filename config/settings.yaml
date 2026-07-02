@@ -44,3 +44,16 @@ quality:
   # (probable erreur de saisie / décalage de virgule) et signalée pour
   # revue humaine plutôt que rejetée automatiquement.
   min_plausible_cadence_theorique: 0.5
+  # Performance et TRS peuvent légitimement dépasser 100% si la cadence
+  # théorique de référence est sous-évaluée (référentiel non recalibré).
+  # On distingue donc un dépassement "raisonnable" (avertissement, à
+  # recalibrer) d'un dépassement massif (bloquant, quasi certainement une
+  # erreur de saisie comme le cas réel TRS=1870% du 2026-07-01).
+  # Provisoire tant qu'on n'a pas assez d'historique pour des seuils
+  # statistiques par couple Produit x Machine (Phase 6).
+  performance_ceiling:
+    warning_max: 100
+    blocking_max: 120
+  trs_ceiling:
+    warning_max: 100
+    blocking_max: 120

@@ -106,3 +106,62 @@ def check_suspiciously_low_cadence_theorique(
             )
         )
     return anomalies
+
+
+def check_percentage_ceiling(
+    df: pd.DataFrame,
+    column: str,
+    warning_max: float = 100,
+    blocking_max: float = 120,
+) -> list[Anomaly]:
+    """
+    Plafond à deux paliers, pour les colonnes qui peuvent légitimement
+    dépasser 100% (Performance, TRS) quand la cadence théorique de
+    référence est sous-évaluée — contrairement à Disponibilité/Qualité
+    qui elles ne peuvent mathématiquement pas dépasser 100%.
+
+        [0, warning_max]              : normal, rien
+        ]warning_max, blocking_max]   : AVERTISSEMENT — référentiel probablement
+                                         à recalibrer, pas une erreur de saisie
+        > blocking_max                : BLOQUANT — dépassement massif, quasi
+                                         certainement une donnée aberrante
+                                         (cas réel rencontré : TRS = 1870%)
+
+    Le plancher n'est volontairement PAS restreint ici : une performance
+    basse (ex. 59%) est un signal métier normal à analyser (Phases 5-7),
+    pas une anomalie de qualité de donnée.
+    """
+    if column not in df.columns:
+        return []
+
+    anomalies: list[Anomaly] = []
+    for idx, row in df.iterrows():
+        value = row[column]
+        if pd.isna(value) or value <= warning_max:
+            continue
+
+        if value > blocking_max:
+            severity = Severity.BLOQUANT
+            reason = (
+                f"dépassement massif au-delà du seuil bloquant ({blocking_max}%) — "
+                "quasi certainement une donnée aberrante (cadence théorique erronée)"
+            )
+        else:
+            severity = Severity.AVERTISSEMENT
+            reason = (
+                f"dépasse 100% mais reste sous le seuil bloquant ({blocking_max}%) — "
+                "cadence théorique de référence probablement sous-évaluée, à recalibrer"
+            )
+
+        anomalies.append(
+            Anomaly(
+                rule="percentage_ceiling_exceeded",
+                severity=severity,
+                message=f"'{column}' = {value}% : {reason}",
+                row_index=int(idx),
+                code_of=row.get(COL_CODE_OF),
+                machine=row.get(COL_MACHINE),
+                column=column,
+            )
+        )
+    return anomalies

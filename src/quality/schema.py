@@ -80,6 +80,15 @@ PERCENTAGE_COLUMNS: list[str] = [
     COL_TRS,
 ]
 
+# Disponibilité et Qualité sont des ratios temps/quantité : ils ne peuvent
+# mathématiquement pas dépasser 100%. Contrôle strict.
+STRICT_PERCENTAGE_COLUMNS: list[str] = [COL_DISPONIBILITE, COL_QUALITE]
+
+# Performance (et donc TRS, qui en dépend) peut légitimement dépasser 100%
+# si la cadence théorique de référence est sous-évaluée. Contrôle à deux
+# paliers (voir plausibility.check_percentage_ceiling).
+FLEXIBLE_CEILING_COLUMNS: list[str] = [COL_PERFORMANCE, COL_TRS]
+
 # Colonnes qui doivent être strictement positives ou nulles
 NON_NEGATIVE_COLUMNS: list[str] = [
     COL_QTE_PRODUITE,

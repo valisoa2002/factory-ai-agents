@@ -50,8 +50,23 @@ class QualityEngine:
         anomalies += consistency.check_trs(df, tolerance=tol.get("trs", 1.0))
 
         # 5. Plausibilité métier
+        # Disponibilité / Qualité : ne peuvent mathématiquement pas dépasser 100%
         anomalies += plausibility.check_percentage_bounds(
-            df, schema.PERCENTAGE_COLUMNS, tolerance=self.config.quality.percentage_tolerance
+            df, schema.STRICT_PERCENTAGE_COLUMNS, tolerance=self.config.quality.percentage_tolerance
+        )
+        # Performance / TRS : peuvent légitimement dépasser 100% si la
+        # cadence théorique est sous-évaluée -> plafond à deux paliers
+        anomalies += plausibility.check_percentage_ceiling(
+            df,
+            column=schema.COL_PERFORMANCE,
+            warning_max=self.config.quality.performance_ceiling.get("warning_max", 100),
+            blocking_max=self.config.quality.performance_ceiling.get("blocking_max", 120),
+        )
+        anomalies += plausibility.check_percentage_ceiling(
+            df,
+            column=schema.COL_TRS,
+            warning_max=self.config.quality.trs_ceiling.get("warning_max", 100),
+            blocking_max=self.config.quality.trs_ceiling.get("blocking_max", 120),
         )
         anomalies += plausibility.check_non_negative(df, schema.NON_NEGATIVE_COLUMNS)
         anomalies += plausibility.check_suspiciously_low_cadence_theorique(
