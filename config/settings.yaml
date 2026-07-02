@@ -57,3 +57,11 @@ quality:
   trs_ceiling:
     warning_max: 100
     blocking_max: 120
+
+database:
+  # Le mot de passe n'est JAMAIS stocké ici : il vient de la variable
+  # d'environnement DB_PASSWORD (voir .env.example à copier vers .env).
+  host: "localhost"
+  port: 5432
+  name: "cadence_trs"
+  user: "postgres"

@@ -1,0 +1,33 @@
+# =============================================================================
+# PostgreSQL pour le projet Cadence/TRS — environnement de développement local
+# =============================================================================
+# Usage :
+#   1. Copiez .env.example vers .env et renseignez DB_PASSWORD
+#      (ce même .env sert à la fois à Docker Compose ET à l'application Python)
+#   2. docker compose up -d
+#   3. docker compose ps          -> vérifier que le conteneur est "healthy"
+#   4. docker compose down        -> arrêter (les données persistent)
+#   5. docker compose down -v     -> arrêter ET supprimer les données (reset complet)
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: cadence_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres} 
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME:-cadence_trs}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - cadence_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-cadence_trs}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  cadence_pgdata:
+    name: cadence_pgdata
