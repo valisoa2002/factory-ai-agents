@@ -62,6 +62,6 @@ database:
   # Le mot de passe n'est JAMAIS stocké ici : il vient de la variable
   # d'environnement DB_PASSWORD (voir .env.example à copier vers .env).
   host: "localhost"
-  port: 5432
+  port: 5433
   name: "cadence_trs"
   user: "postgres"

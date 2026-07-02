@@ -53,12 +53,21 @@ class QualityConfig:
 
 
 @dataclass(frozen=True)
+class DatabaseConfig:
+    host: str
+    port: int
+    name: str
+    user: str
+
+
+@dataclass(frozen=True)
 class AppConfig:
     excel: ExcelConfig
     paths: PathsConfig
     logging: LoggingConfig
     extraction: ExtractionConfig
     quality: QualityConfig
+    database: DatabaseConfig
     project_root: Path
 
     def ensure_directories(self) -> None:
@@ -102,13 +111,15 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
     logging_cfg = LoggingConfig(**raw["logging"])
     extraction_cfg = ExtractionConfig(**raw.get("extraction", {}))
     quality_cfg = QualityConfig(**raw.get("quality", {"formula_tolerance": {}}))
+    database_cfg = DatabaseConfig(**raw["database"])
 
     config = AppConfig(
-        excel=excel,
+        excel=excel,    
         paths=paths,
         logging=logging_cfg,
         extraction=extraction_cfg,
         quality=quality_cfg,
+        database=database_cfg,
         project_root=project_root,
     )
     config.ensure_directories()
