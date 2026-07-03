@@ -78,6 +78,44 @@ def main() -> int:
     for col, count in column_counter.most_common():
         print(f"  {col:35s} : {count:4d} occurrence(s)")
 
+    # Liste actionnable : couples Produit x Machine avec cadence théorique
+    # suspecte, à transmettre à l'équipe méthodes/production.
+    suspects = []
+    for r in rows:
+        if not r.quality_details:
+            continue
+        anomalies = json.loads(r.quality_details)
+        has_ceiling_issue = any(
+            a["rule"] == "percentage_ceiling_exceeded" and a["severity"] == "BLOQUANT" for a in anomalies
+        )
+        if has_ceiling_issue:
+            suspects.append(
+                {
+                    "code_of": r.code_of,
+                    "produit": r.produit,
+                    "machine": r.machine,
+                    "cadence_theorique_saisie": r.cadence_theorique,
+                    "cadence_reelle_observee": r.cadence_reelle,
+                }
+            )
+
+    if suspects:
+        print(f"\n--- {len(suspects)} ligne(s) à cadence théorique probablement erronée ---")
+        print(f"{'Code OF':20s} | {'Produit':45s} | {'Machine':30s} | {'Théo. saisie':>12s} | {'Réelle obs.':>12s}")
+        for s in suspects:
+            print(
+                f"{s['code_of']:20s} | {s['produit'][:45]:45s} | {s['machine'][:30]:30s} | "
+                f"{s['cadence_theorique_saisie']:12.2f} | {s['cadence_reelle_observee'] or 0:12.2f}"
+            )
+
+        report_path = config.paths.reports_dir / "cadence_theorique_a_corriger.csv"
+        import csv
+        with open(report_path, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.DictWriter(f, fieldnames=list(suspects[0].keys()))
+            writer.writeheader()
+            writer.writerows(suspects)
+        print(f"\n📄 Liste exportée pour l'atelier : {report_path}")
+
     return 0
 
 
