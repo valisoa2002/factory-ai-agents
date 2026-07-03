@@ -70,6 +70,12 @@ class AnalyticsConfig:
 
 
 @dataclass(frozen=True)
+class AnomalyConfig:
+    min_of_for_stat_detection: int = 3
+    z_score_threshold: float = 2.0
+
+
+@dataclass(frozen=True)
 class AppConfig:
     excel: ExcelConfig
     paths: PathsConfig
@@ -78,6 +84,7 @@ class AppConfig:
     quality: QualityConfig
     database: DatabaseConfig
     analytics: AnalyticsConfig
+    anomalies: AnomalyConfig
     project_root: Path
 
     def ensure_directories(self) -> None:
@@ -123,6 +130,7 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
     quality_cfg = QualityConfig(**raw.get("quality", {"formula_tolerance": {}}))
     database_cfg = DatabaseConfig(**raw["database"])
     analytics_cfg = AnalyticsConfig(**raw.get("analytics", {}))
+    anomalies_cfg = AnomalyConfig(**raw.get("anomalies", {}))
 
     config = AppConfig(
         excel=excel,
@@ -132,6 +140,7 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
         quality=quality_cfg,
         database=database_cfg,
         analytics=analytics_cfg,
+        anomalies=anomalies_cfg,
         project_root=project_root,
     )
     config.ensure_directories()

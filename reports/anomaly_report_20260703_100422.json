@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-07-03T10:04:22.572027",
+  "n_anomalies": 0,
+  "n_insufficient_history": 27,
+  "anomalies": [],
+  "insufficient_history": [
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL015] - Flacon PET IMPEC Vaisselle Maxi 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 10",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 11",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 12",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 13",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 3",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 4",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 8",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 9",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF240] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Remplisseuse automatique N°01",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF241] - IMPEC Vaisselle pomme raisin Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF292] - IMPEC Vaisselle assorti Mini 250ml",
+      "machine": "Scotcheuse IMPEC",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK238 PK] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK238] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[VR002] - IMPEC Vaisselle menthe citron vrac",
+      "machine": "Mélangeur 2 tonnes N°2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[VR006] - IMPEC Vaisselle pomme raisin vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[VR086] - IMPEC Lessive liquide EXPRESS vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "n_of": 1,
+      "min_required": 3
+    }
+  ]
+}

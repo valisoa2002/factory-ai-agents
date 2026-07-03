@@ -82,3 +82,12 @@ analytics:
   # Seuil de coefficient de variation (%) de la cadence réelle au-delà
   # duquel un couple est qualifié d'instable
   stability_cv_threshold: 30
+
+anomalies:
+  # Nombre minimum d'OF par couple pour qu'une détection statistique soit
+  # jugée fiable. Volontairement bas pour démarrer (peu d'historique au
+  # 2026-07-03) — à remonter à 5-8 une fois plus de données accumulées.
+  min_of_for_stat_detection: 3
+  # Un OF est signalé si sa valeur s'écarte de plus de N écarts-types de
+  # la moyenne de son propre couple Produit x Machine.
+  z_score_threshold: 2.0
