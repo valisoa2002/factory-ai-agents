@@ -1,0 +1,553 @@
+{
+  "generated_at": "2026-07-03T09:52:37.396367",
+  "n_couples": 27,
+  "metrics": [
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 20.0,
+      "cadence_reelle_moy": null,
+      "cadence_reelle_min": null,
+      "cadence_reelle_max": null,
+      "ecart_moy": -100.0,
+      "trs_moy": 0.0,
+      "performance_moy": 0.0,
+      "disponibilite_moy": 48.85,
+      "qualite_moy": 0.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (0.0%) — ce couple Produit x Machine mérite une investigation prioritaire."
+      ]
+    },
+    {
+      "produit": "[FL015] - Flacon PET IMPEC Vaisselle Maxi 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 30.55,
+      "cadence_reelle_moy": 17.72,
+      "cadence_reelle_min": 17.72,
+      "cadence_reelle_max": 17.72,
+      "ecart_moy": -41.99,
+      "trs_moy": 5.6,
+      "performance_moy": 58.01,
+      "disponibilite_moy": 9.69,
+      "qualite_moy": 99.66,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (5.6%) — ce couple Produit x Machine mérite une investigation prioritaire."
+      ]
+    },
+    {
+      "produit": "[VR002] - IMPEC Vaisselle menthe citron vrac",
+      "machine": "Mélangeur 2 tonnes N°2",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 50.0,
+      "cadence_reelle_moy": 35.04,
+      "cadence_reelle_min": 35.04,
+      "cadence_reelle_max": 35.04,
+      "ecart_moy": -29.92,
+      "trs_moy": 10.02,
+      "performance_moy": 70.08,
+      "disponibilite_moy": 14.3,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (10.0%) — ce couple Produit x Machine mérite une investigation prioritaire."
+      ]
+    },
+    {
+      "produit": "[VR006] - IMPEC Vaisselle pomme raisin vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 50.0,
+      "cadence_reelle_moy": 31.555,
+      "cadence_reelle_min": 29.33,
+      "cadence_reelle_max": 33.78,
+      "ecart_moy": -36.900000000000006,
+      "trs_moy": 17.895,
+      "performance_moy": 63.099999999999994,
+      "disponibilite_moy": 28.07,
+      "qualite_moy": 100.0,
+      "stabilite_cv": 9.97187506347691,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (17.9%) — ce couple Produit x Machine mérite une investigation prioritaire.",
+        "Cadence stable d'un OF à l'autre (variation de 10.0%)."
+      ]
+    },
+    {
+      "produit": "[VR086] - IMPEC Lessive liquide EXPRESS vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 15.41,
+      "cadence_reelle_moy": 12.3,
+      "cadence_reelle_min": 12.3,
+      "cadence_reelle_max": 12.3,
+      "ecart_moy": -20.2,
+      "trs_moy": 32.95,
+      "performance_moy": 79.8,
+      "disponibilite_moy": 41.29,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (33.0%) — ce couple Produit x Machine mérite une investigation prioritaire."
+      ]
+    },
+    {
+      "produit": "[PF240] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Remplisseuse automatique N°01",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 54.0,
+      "cadence_reelle_moy": 39.51,
+      "cadence_reelle_min": 22.86,
+      "cadence_reelle_max": 56.16,
+      "ecart_moy": -26.84,
+      "trs_moy": 40.555,
+      "performance_moy": 73.16,
+      "disponibilite_moy": 62.565,
+      "qualite_moy": 96.65,
+      "stabilite_cv": 59.596699097727246,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (40.6%) — ce couple Produit x Machine mérite une investigation prioritaire.",
+        "Cadence instable (variation de 59.6% autour de la moyenne) — possible irrégularité machine, produit, ou cadence théorique mal calibrée."
+      ]
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 49.35,
+      "cadence_reelle_moy": 22.165,
+      "cadence_reelle_min": 14.95,
+      "cadence_reelle_max": 29.38,
+      "ecart_moy": -55.085,
+      "trs_moy": 44.370000000000005,
+      "performance_moy": 44.915,
+      "disponibilite_moy": 99.78,
+      "qualite_moy": 98.95,
+      "stabilite_cv": 46.03451771947611,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (44.4%) — ce couple Produit x Machine mérite une investigation prioritaire.",
+        "Cadence instable (variation de 46.0% autour de la moyenne) — possible irrégularité machine, produit, ou cadence théorique mal calibrée."
+      ]
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 54.0,
+      "cadence_reelle_moy": 37.175,
+      "cadence_reelle_min": 33.47,
+      "cadence_reelle_max": 40.88,
+      "ecart_moy": -31.160000000000004,
+      "trs_moy": 47.47,
+      "performance_moy": 68.84,
+      "disponibilite_moy": 70.93,
+      "qualite_moy": 97.525,
+      "stabilite_cv": 14.094583049340473,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (47.5%) — ce couple Produit x Machine mérite une investigation prioritaire.",
+        "Cadence stable d'un OF à l'autre (variation de 14.1%)."
+      ]
+    },
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 8.33,
+      "cadence_reelle_moy": 4.94,
+      "cadence_reelle_min": 4.94,
+      "cadence_reelle_max": 4.94,
+      "ecart_moy": -40.73,
+      "trs_moy": 48.73,
+      "performance_moy": 59.27,
+      "disponibilite_moy": 84.21,
+      "qualite_moy": 97.64,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen faible (48.7%) — ce couple Produit x Machine mérite une investigation prioritaire."
+      ]
+    },
+    {
+      "produit": "[PK238] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 30.0,
+      "cadence_reelle_moy": 17.87,
+      "cadence_reelle_min": 17.87,
+      "cadence_reelle_max": 17.87,
+      "ecart_moy": -40.44,
+      "trs_moy": 57.11,
+      "performance_moy": 59.56,
+      "disponibilite_moy": 100.0,
+      "qualite_moy": 95.9,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (57.1%) — marge de progression identifiée."
+      ]
+    },
+    {
+      "produit": "[PF292] - IMPEC Vaisselle assorti Mini 250ml",
+      "machine": "Scotcheuse IMPEC",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 4.5,
+      "cadence_reelle_moy": 2.8099999999999996,
+      "cadence_reelle_min": 2.03,
+      "cadence_reelle_max": 3.59,
+      "ecart_moy": -37.555,
+      "trs_moy": 58.019999999999996,
+      "performance_moy": 62.445,
+      "disponibilite_moy": 91.32499999999999,
+      "qualite_moy": 100.0,
+      "stabilite_cv": 39.25575012992934,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (58.0%) — marge de progression identifiée.",
+        "Cadence instable (variation de 39.3% autour de la moyenne) — possible irrégularité machine, produit, ou cadence théorique mal calibrée."
+      ]
+    },
+    {
+      "produit": "[PF241] - IMPEC Vaisselle pomme raisin Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 54.0,
+      "cadence_reelle_moy": 50.37,
+      "cadence_reelle_min": 40.66,
+      "cadence_reelle_max": 60.08,
+      "ecart_moy": -6.72,
+      "trs_moy": 66.195,
+      "performance_moy": 93.28,
+      "disponibilite_moy": 72.625,
+      "qualite_moy": 96.91499999999999,
+      "stabilite_cv": 27.262286461470627,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (66.2%) — marge de progression identifiée.",
+        "Cadence stable d'un OF à l'autre (variation de 27.3%)."
+      ]
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 3.51,
+      "cadence_reelle_min": 3.51,
+      "cadence_reelle_max": 3.51,
+      "ecart_moy": -29.85,
+      "trs_moy": 68.82,
+      "performance_moy": 70.15,
+      "disponibilite_moy": 98.1,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (68.8%) — marge de progression identifiée."
+      ]
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 5.74,
+      "cadence_reelle_min": 5.74,
+      "cadence_reelle_max": 5.74,
+      "ecart_moy": 14.83,
+      "trs_moy": 70.52,
+      "performance_moy": 114.83,
+      "disponibilite_moy": 61.41,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (70.5%) — marge de progression identifiée."
+      ]
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 2,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 20.0,
+      "cadence_reelle_moy": 17.835,
+      "cadence_reelle_min": 14.02,
+      "cadence_reelle_max": 21.65,
+      "ecart_moy": -10.84,
+      "trs_moy": 72.08,
+      "performance_moy": 89.16,
+      "disponibilite_moy": 88.78999999999999,
+      "qualite_moy": 93.565,
+      "stabilite_cv": 30.25076950071969,
+      "conclusions": [
+        "Historique limité (2 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (72.1%) — marge de progression identifiée.",
+        "Cadence instable (variation de 30.3% autour de la moyenne) — possible irrégularité machine, produit, ou cadence théorique mal calibrée."
+      ]
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 3.71,
+      "cadence_reelle_min": 3.71,
+      "cadence_reelle_max": 3.71,
+      "ecart_moy": -25.89,
+      "trs_moy": 72.5,
+      "performance_moy": 74.11,
+      "disponibilite_moy": 97.83,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "TRS moyen modéré (72.5%) — marge de progression identifiée."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 13",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 3.97,
+      "cadence_reelle_min": 3.97,
+      "cadence_reelle_max": 3.97,
+      "ecart_moy": -20.52,
+      "trs_moy": 77.99,
+      "performance_moy": 79.48,
+      "disponibilite_moy": 98.13,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (78.0%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 8",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.03,
+      "cadence_reelle_min": 4.03,
+      "cadence_reelle_max": 4.03,
+      "ecart_moy": -19.36,
+      "trs_moy": 79.14,
+      "performance_moy": 80.64,
+      "disponibilite_moy": 98.14,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (79.1%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 4",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.03,
+      "cadence_reelle_min": 4.03,
+      "cadence_reelle_max": 4.03,
+      "ecart_moy": -19.38,
+      "trs_moy": 79.2,
+      "performance_moy": 80.62,
+      "disponibilite_moy": 98.25,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (79.2%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 9",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.13,
+      "cadence_reelle_min": 4.13,
+      "cadence_reelle_max": 4.13,
+      "ecart_moy": -17.38,
+      "trs_moy": 81.07,
+      "performance_moy": 82.62,
+      "disponibilite_moy": 98.13,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (81.1%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 10",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.76,
+      "cadence_reelle_min": 4.76,
+      "cadence_reelle_max": 4.76,
+      "ecart_moy": -4.73,
+      "trs_moy": 83.21,
+      "performance_moy": 95.27,
+      "disponibilite_moy": 87.34,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (83.2%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 12",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.24,
+      "cadence_reelle_min": 4.24,
+      "cadence_reelle_max": 4.24,
+      "ecart_moy": -15.12,
+      "trs_moy": 83.29,
+      "performance_moy": 84.88,
+      "disponibilite_moy": 98.12,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (83.3%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 11",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.26,
+      "cadence_reelle_min": 4.26,
+      "cadence_reelle_max": 4.26,
+      "ecart_moy": -14.86,
+      "trs_moy": 83.55,
+      "performance_moy": 85.14,
+      "disponibilite_moy": 98.13,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (83.5%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 1",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 5.0,
+      "cadence_reelle_moy": 4.37,
+      "cadence_reelle_min": 4.37,
+      "cadence_reelle_max": 4.37,
+      "ecart_moy": -12.68,
+      "trs_moy": 85.77,
+      "performance_moy": 87.32,
+      "disponibilite_moy": 98.22,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (85.8%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 3",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 4.9,
+      "cadence_reelle_moy": 4.36,
+      "cadence_reelle_min": 4.36,
+      "cadence_reelle_max": 4.36,
+      "ecart_moy": -11.12,
+      "trs_moy": 87.27,
+      "performance_moy": 88.88,
+      "disponibilite_moy": 98.19,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (87.3%)."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 2",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 4.9,
+      "cadence_reelle_moy": 4.51,
+      "cadence_reelle_min": 4.51,
+      "cadence_reelle_max": 4.51,
+      "ecart_moy": -8.02,
+      "trs_moy": 90.33,
+      "performance_moy": 91.98,
+      "disponibilite_moy": 98.2,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (90.3%)."
+      ]
+    },
+    {
+      "produit": "[PK238 PK] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "n_excluded_bloquant": 0,
+      "cadence_theorique_moy": 2.3,
+      "cadence_reelle_moy": 2.11,
+      "cadence_reelle_min": 2.11,
+      "cadence_reelle_max": 2.11,
+      "ecart_moy": -8.29,
+      "trs_moy": 91.71,
+      "performance_moy": 91.71,
+      "disponibilite_moy": 100.0,
+      "qualite_moy": 100.0,
+      "stabilite_cv": null,
+      "conclusions": [
+        "Historique limité (1 OF) — conclusions à confirmer avec plus de données.",
+        "Bon TRS moyen (91.7%)."
+      ]
+    }
+  ]
+}

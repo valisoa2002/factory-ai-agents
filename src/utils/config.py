@@ -61,6 +61,15 @@ class DatabaseConfig:
 
 
 @dataclass(frozen=True)
+class AnalyticsConfig:
+    exclude_bloquant: bool = True
+    min_of_for_confidence: int = 3
+    trs_low_threshold: float = 50
+    trs_good_threshold: float = 75
+    stability_cv_threshold: float = 30
+
+
+@dataclass(frozen=True)
 class AppConfig:
     excel: ExcelConfig
     paths: PathsConfig
@@ -68,6 +77,7 @@ class AppConfig:
     extraction: ExtractionConfig
     quality: QualityConfig
     database: DatabaseConfig
+    analytics: AnalyticsConfig
     project_root: Path
 
     def ensure_directories(self) -> None:
@@ -112,14 +122,16 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
     extraction_cfg = ExtractionConfig(**raw.get("extraction", {}))
     quality_cfg = QualityConfig(**raw.get("quality", {"formula_tolerance": {}}))
     database_cfg = DatabaseConfig(**raw["database"])
+    analytics_cfg = AnalyticsConfig(**raw.get("analytics", {}))
 
     config = AppConfig(
-        excel=excel,    
+        excel=excel,
         paths=paths,
         logging=logging_cfg,
         extraction=extraction_cfg,
         quality=quality_cfg,
         database=database_cfg,
+        analytics=analytics_cfg,
         project_root=project_root,
     )
     config.ensure_directories()

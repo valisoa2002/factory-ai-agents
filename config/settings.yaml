@@ -61,7 +61,24 @@ quality:
 database:
   # Le mot de passe n'est JAMAIS stocké ici : il vient de la variable
   # d'environnement DB_PASSWORD (voir .env.example à copier vers .env).
+  # Port 5433 : le 5432 est déjà occupé par un PostgreSQL natif installé
+  # sur cette machine (postgresql-x64-18), Docker utilise donc 5433.
   host: "localhost"
   port: 5433
   name: "cadence_trs"
   user: "postgres"
+
+analytics:
+  # Les lignes BLOQUANT sont exclues du calcul des moyennes par défaut
+  # (une valeur physiquement impossible comme TRS=1870% fausserait tout
+  # le couple Produit x Machine). Configurable si besoin d'audit complet.
+  exclude_bloquant: true
+  # En-dessous de ce nombre d'OF, les conclusions sont qualifiées de
+  # peu fiables (pas assez d'historique pour être confiant).
+  min_of_for_confidence: 3
+  # Seuils de TRS pour les conclusions automatiques (%)
+  trs_low_threshold: 50
+  trs_good_threshold: 75
+  # Seuil de coefficient de variation (%) de la cadence réelle au-delà
+  # duquel un couple est qualifié d'instable
+  stability_cv_threshold: 30
