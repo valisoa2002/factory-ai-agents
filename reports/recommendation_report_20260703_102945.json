@@ -1,0 +1,1853 @@
+{
+  "generated_at": "2026-07-03T10:29:45.271287",
+  "n_couples": 121,
+  "n_fiables": 31,
+  "recommendations": [
+    {
+      "produit": "[FL008] - Flacon PET IMPEC Gel hydroalcoolique 500ml",
+      "machine": "Souffleuse semi automatique 2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 12.73,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL009] - Flacon PET GAS'CARE Gel douche 300ml",
+      "machine": "Souffleuse semi automatique 1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 15.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL011] - Flacon PET standard 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 2,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 20.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (2 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 20.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 2,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 8.33,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (2 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL018] - Flacon PET IMPEC lave main 350ml",
+      "machine": "Souffleuse semi automatique 2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 13.39,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL019] - Flacon PET CLEANAUTO 1L",
+      "machine": "Souffleuse semi automatique 1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.05,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL020] - Flacon PET VAO Shampooing 300ml",
+      "machine": "Souffleuse semi automatique 1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 20.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL021] - Flacon PET MAGNEVA Shampooing 250 ML",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 8.15,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL024] - Flacon PET Parfum d'Intérieur 300ml",
+      "machine": "Souffleuse semi automatique 1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 15.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL024] - Flacon PET Parfum d'Intérieur 300ml",
+      "machine": "Souffleuse semi automatique 2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 14.41,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL025] - Flacon PET IMPEC Vaisselle Midi 500ml",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 20.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF012] - IMPEC Lave mains Thé vert aloe vera 300ml",
+      "machine": "Etiquetteuse automatique N°2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 9.15,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF012] - IMPEC Lave mains Thé vert aloe vera 300ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF016] - IMPEC Vaisselle menthe citron 5L",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.95,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF028] - TSARA Baume Relax sachet",
+      "machine": "Ensacheuse automatique N° 12",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF028] - TSARA Baume Relax sachet",
+      "machine": "Ensacheuse automatique N° 13",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF028] - TSARA Baume Relax sachet",
+      "machine": "Ensacheuse automatique N° 14",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF028] - TSARA Baume Relax sachet",
+      "machine": "Ensacheuse automatique N° 9",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF034] - TSARA Baume Katrafay sachet",
+      "machine": "Ensacheuse automatique N° 10",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.48,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF034] - TSARA Baume Katrafay sachet",
+      "machine": "Ensacheuse automatique N° 8",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.48,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF066] - HYDROGEL Gel mains hydroalcoolique 5L",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF094 PF] - IMPEC Gel mains hydroalcoolique aloé 500ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.5,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF094] - IMPEC Gel mains hydroalcoolique aloé 500ml",
+      "machine": "Etiquetteuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 3.79,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF237 PF] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 2,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.2,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (2 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF238 PF] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.2,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF238] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 2,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (2 OF exploitable(s) sur 3 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Etiquetteuse automatique N°2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 43.6,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF324] - IMPEC Vaisselle assorti Maxi 1L",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 2.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF326 PF] - IMPEC Vaisselle pomme raisin Maxi 1L - ULYS",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF326] - IMPEC Vaisselle pomme raisin Maxi 1L - ULYS",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF450 PF] - IMPEC Lave mains Fruits de la passion 300ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF450] - IMPEC Lave mains Fruits de la passion 300ml",
+      "machine": "Etiquetteuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.72,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF693] - NETPRO KLINOSOL Nettoyant sol 5L",
+      "machine": "Opérateur Coco + autre",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 4.9,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF711 PF] -  IMPEC Vaisselle menthe citron Midi 500ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF711] -  IMPEC Vaisselle menthe citron Midi 500ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 35.7,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PF712 PF] - IMPEC Vaisselle fleur de cerisier Midi 500ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK168 PK] - VAO SHAMPOOING Avocat 300ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK168] - VAO SHAMPOOING Avocat 300ml",
+      "machine": "Etiquetteuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 3.29,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK169 PK] - VAO SHAMPOOING Karité 300ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK169] - VAO SHAMPOOING Karité 300ml",
+      "machine": "Etiquetteuse automatique N°3",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 2.99,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK213 PK] - MAGNEVA Shampooing Jaune 1L",
+      "machine": "Bouchonneuse automatique N°01_",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK213] - MAGNEVA Shampooing Jaune 1L",
+      "machine": "Etiquetteuse automatique N°3",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 7.63,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK214] - MAGNEVA Shampooing Rose 1L",
+      "machine": "Etiquetteuse automatique N°2",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 7.16,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK214] - MAGNEVA Shampooing Rose 1L",
+      "machine": "Etiquetteuse automatique N°3",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 7.16,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Etiquetteuse automatique N°3",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Remplisseuse automatique N°01",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK237 PK] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 2,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.4766666666666666,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (2 OF exploitable(s) sur 3 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK237] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK238 PK] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.7866666666666665,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 3 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK239 PK] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 5,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.4,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 5 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK240 PK] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK240] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 2,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (2 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK241 PK] - IMPEC Vaisselle pomme raisin Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK292] - IMPEC Vaisselle assorti Mini 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 3.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 4 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK294 PK] - MAGNEVA Shampooing Rose 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK324] - IMPEC Vaisselle assorti Maxi 1L",
+      "machine": "Etiquetteuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK324] - IMPEC Vaisselle assorti Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 4.5,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK474 PK] - IMPEC Lessive liquide EXPRESS 300ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 1.4,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK474] - IMPEC Lessive liquide EXPRESS 300ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.38,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK528] - MAGNEVA Shampooing Vert 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK529] - MAGNEVA Shampooing Jaune 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK531] - MAGNEVA Shampooing Bleu 250ml",
+      "machine": "Etiquetteuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 8.76,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK532] - MAGNEVA Shampooing assorti 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[PK557] - CLEANAUTO Liquide de refroidissement bleu 5L",
+      "machine": "Opérateur Coco + autre",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR002] - IMPEC Vaisselle menthe citron vrac",
+      "machine": "Mélangeur 2 tonnes N°1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 50.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR008] - IMPEC Lave mains Thé vert et aloe vera vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR009] - IMPEC Lave mains Pêche mangue vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR011] - IMPEC Gel Hydro-alcoolique vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR029] - IMPEC Lave sol citron vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR030] - IMPEC Crème lavante amande douce vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR031] - IMPEC Lave sol pomme vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 36.5,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR031] - IMPEC Lave sol pomme vrac",
+      "machine": "Mélangeur R+1",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 10.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR064] - IMPEC Encaustique acajou vrac",
+      "machine": "Résistance",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.5,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR066] - MAGNEVA Shampooing Jaune vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR067] - MAGNEVA Shampooing Rose vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR086] - IMPEC Lessive liquide EXPRESS vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 2,
+      "n_of_utilises": 1,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 7.72,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (1 OF exploitable(s) sur 2 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR099] - IMPEC Nettoyant Désinfectant sols et surfaces vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[VR123] - CANIDOU Shampooing Chien et Chiot vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "fiable": false,
+      "n_of_disponibles": 1,
+      "n_of_utilises": 0,
+      "n_of_reference": 0,
+      "cadence_theorique_actuelle": 0.03,
+      "cadence_recommandee": null,
+      "trs_moyen_reference": null,
+      "ecart_vs_theorique_pct": null,
+      "justification": [
+        "Historique insuffisant (0 OF exploitable(s) sur 1 disponible(s), minimum requis : 3) — pas de recommandation fiable possible."
+      ]
+    },
+    {
+      "produit": "[FL015] - Flacon PET IMPEC Vaisselle Maxi 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "fiable": true,
+      "n_of_disponibles": 6,
+      "n_of_utilises": 5,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 30.55,
+      "cadence_recommandee": 11.77,
+      "trs_moyen_reference": 32.76,
+      "ecart_vs_theorique_pct": -61.5,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 32.8%).",
+        "Cadence recommandée (11.77 pcs/min) inférieure de 61.5% à la cadence théorique actuelle (30.55 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "fiable": true,
+      "n_of_disponibles": 6,
+      "n_of_utilises": 6,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 49.35,
+      "cadence_recommandee": 30.4,
+      "trs_moyen_reference": 50.63,
+      "ecart_vs_theorique_pct": -38.4,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 50.6%).",
+        "Cadence recommandée (30.40 pcs/min) inférieure de 38.4% à la cadence théorique actuelle (49.35 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse semi automatique 1",
+      "fiable": true,
+      "n_of_disponibles": 10,
+      "n_of_utilises": 8,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 20.0,
+      "cadence_recommandee": 19.97,
+      "trs_moyen_reference": 77.92,
+      "ecart_vs_theorique_pct": -0.2,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 77.9%).",
+        "Cadence recommandée (19.97 pcs/min) proche de la cadence théorique actuelle (20.00 pcs/min) — référentiel cohérent avec la réalité observée."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 1",
+      "fiable": true,
+      "n_of_disponibles": 5,
+      "n_of_utilises": 5,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.13,
+      "trs_moyen_reference": 79.64,
+      "ecart_vs_theorique_pct": -17.3,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 79.6%).",
+        "Cadence recommandée (4.13 pcs/min) inférieure de 17.3% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 10",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.69,
+      "trs_moyen_reference": 87.51,
+      "ecart_vs_theorique_pct": -6.1,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 87.5%).",
+        "Cadence recommandée (4.69 pcs/min) inférieure de 6.1% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 11",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 5.18,
+      "trs_moyen_reference": 86.01,
+      "ecart_vs_theorique_pct": 3.7,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 86.0%).",
+        "Cadence recommandée (5.18 pcs/min) proche de la cadence théorique actuelle (5.00 pcs/min) — référentiel cohérent avec la réalité observée."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 12",
+      "fiable": true,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 3.49,
+      "trs_moyen_reference": 67.11,
+      "ecart_vs_theorique_pct": -30.1,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 67.1%).",
+        "Cadence recommandée (3.49 pcs/min) inférieure de 30.1% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 13",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.3,
+      "trs_moyen_reference": 82.61,
+      "ecart_vs_theorique_pct": -14.0,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 82.6%).",
+        "Cadence recommandée (4.30 pcs/min) inférieure de 14.0% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 14",
+      "fiable": true,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.44,
+      "trs_moyen_reference": 80.79,
+      "ecart_vs_theorique_pct": -11.2,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 80.8%).",
+        "Cadence recommandée (4.44 pcs/min) inférieure de 11.2% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 2",
+      "fiable": true,
+      "n_of_disponibles": 5,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 4.9,
+      "cadence_recommandee": 4.51,
+      "trs_moyen_reference": 86.7,
+      "ecart_vs_theorique_pct": -8.0,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 86.7%).",
+        "Cadence recommandée (4.51 pcs/min) inférieure de 8.0% à la cadence théorique actuelle (4.90 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 3",
+      "fiable": true,
+      "n_of_disponibles": 5,
+      "n_of_utilises": 5,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 4.9,
+      "cadence_recommandee": 4.46,
+      "trs_moyen_reference": 86.44,
+      "ecart_vs_theorique_pct": -9.0,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 86.4%).",
+        "Cadence recommandée (4.46 pcs/min) inférieure de 9.0% à la cadence théorique actuelle (4.90 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 4",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.38,
+      "trs_moyen_reference": 85.03,
+      "ecart_vs_theorique_pct": -12.5,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 85.0%).",
+        "Cadence recommandée (4.38 pcs/min) inférieure de 12.5% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.49,
+      "trs_moyen_reference": 85.64,
+      "ecart_vs_theorique_pct": -10.3,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 85.6%).",
+        "Cadence recommandée (4.49 pcs/min) inférieure de 10.3% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.37,
+      "trs_moyen_reference": 84.32,
+      "ecart_vs_theorique_pct": -12.6,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 84.3%).",
+        "Cadence recommandée (4.37 pcs/min) inférieure de 12.6% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.61,
+      "trs_moyen_reference": 85.65,
+      "ecart_vs_theorique_pct": -7.8,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 85.7%).",
+        "Cadence recommandée (4.61 pcs/min) inférieure de 7.8% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 8",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.45,
+      "trs_moyen_reference": 86.32,
+      "ecart_vs_theorique_pct": -10.9,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 86.3%).",
+        "Cadence recommandée (4.45 pcs/min) inférieure de 10.9% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF030] - VAO COCO Nature sachet",
+      "machine": "Ensacheuse automatique N° 9",
+      "fiable": true,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 5.0,
+      "cadence_recommandee": 4.37,
+      "trs_moyen_reference": 82.26,
+      "ecart_vs_theorique_pct": -12.7,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 82.3%).",
+        "Cadence recommandée (4.37 pcs/min) inférieure de 12.7% à la cadence théorique actuelle (5.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF237] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Remplisseuse automatique N°01",
+      "fiable": true,
+      "n_of_disponibles": 3,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": 13.67,
+      "trs_moyen_reference": 27.89,
+      "ecart_vs_theorique_pct": -54.4,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 27.9%).",
+        "Cadence recommandée (13.67 pcs/min) inférieure de 54.4% à la cadence théorique actuelle (30.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF239 PF] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": true,
+      "n_of_disponibles": 5,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 4.5,
+      "cadence_recommandee": 2.31,
+      "trs_moyen_reference": 51.38,
+      "ecart_vs_theorique_pct": -48.7,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 51.4%).",
+        "Cadence recommandée (2.31 pcs/min) inférieure de 48.7% à la cadence théorique actuelle (4.50 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": true,
+      "n_of_disponibles": 10,
+      "n_of_utilises": 6,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": 50.24,
+      "trs_moyen_reference": 86.15,
+      "ecart_vs_theorique_pct": -7.0,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 86.2%).",
+        "Cadence recommandée (50.24 pcs/min) inférieure de 7.0% à la cadence théorique actuelle (54.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF240] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Remplisseuse automatique N°01",
+      "fiable": true,
+      "n_of_disponibles": 6,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": 47.46,
+      "trs_moyen_reference": 60.84,
+      "ecart_vs_theorique_pct": -12.1,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 60.8%).",
+        "Cadence recommandée (47.46 pcs/min) inférieure de 12.1% à la cadence théorique actuelle (54.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF241] - IMPEC Vaisselle pomme raisin Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": true,
+      "n_of_disponibles": 6,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": 47.85,
+      "trs_moyen_reference": 67.81,
+      "ecart_vs_theorique_pct": -11.4,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 67.8%).",
+        "Cadence recommandée (47.85 pcs/min) inférieure de 11.4% à la cadence théorique actuelle (54.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PF292] - IMPEC Vaisselle assorti Mini 250ml",
+      "machine": "Scotcheuse IMPEC",
+      "fiable": true,
+      "n_of_disponibles": 6,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 4.5,
+      "cadence_recommandee": 3.28,
+      "trs_moyen_reference": 71.68,
+      "ecart_vs_theorique_pct": -27.2,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 71.7%).",
+        "Cadence recommandée (3.28 pcs/min) inférieure de 27.2% à la cadence théorique actuelle (4.50 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PK237] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Remplisseuse automatique N°01",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": 20.02,
+      "trs_moyen_reference": 51.98,
+      "ecart_vs_theorique_pct": -33.3,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 52.0%).",
+        "Cadence recommandée (20.02 pcs/min) inférieure de 33.3% à la cadence théorique actuelle (30.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PK238] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": true,
+      "n_of_disponibles": 5,
+      "n_of_utilises": 5,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 30.0,
+      "cadence_recommandee": 25.22,
+      "trs_moyen_reference": 78.5,
+      "ecart_vs_theorique_pct": -15.9,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 78.5%).",
+        "Cadence recommandée (25.22 pcs/min) inférieure de 15.9% à la cadence théorique actuelle (30.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PK239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "fiable": true,
+      "n_of_disponibles": 9,
+      "n_of_utilises": 7,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": 51.99,
+      "trs_moyen_reference": 82.91,
+      "ecart_vs_theorique_pct": -3.7,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 82.9%).",
+        "Cadence recommandée (51.99 pcs/min) proche de la cadence théorique actuelle (54.00 pcs/min) — référentiel cohérent avec la réalité observée."
+      ]
+    },
+    {
+      "produit": "[PK240] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Remplisseuse automatique N°01",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 3,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": 42.24,
+      "trs_moyen_reference": 56.61,
+      "ecart_vs_theorique_pct": -21.8,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 56.6%).",
+        "Cadence recommandée (42.24 pcs/min) inférieure de 21.8% à la cadence théorique actuelle (54.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[PK241] - IMPEC Vaisselle pomme raisin Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "fiable": true,
+      "n_of_disponibles": 4,
+      "n_of_utilises": 4,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 54.0,
+      "cadence_recommandee": 34.07,
+      "trs_moyen_reference": 45.68,
+      "ecart_vs_theorique_pct": -36.9,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 45.7%).",
+        "Cadence recommandée (34.07 pcs/min) inférieure de 36.9% à la cadence théorique actuelle (54.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[VR002] - IMPEC Vaisselle menthe citron vrac",
+      "machine": "Mélangeur 2 tonnes N°2",
+      "fiable": true,
+      "n_of_disponibles": 13,
+      "n_of_utilises": 11,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 50.0,
+      "cadence_recommandee": 45.08,
+      "trs_moyen_reference": 32.13,
+      "ecart_vs_theorique_pct": -9.8,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 32.1%).",
+        "Cadence recommandée (45.08 pcs/min) inférieure de 9.8% à la cadence théorique actuelle (50.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[VR004] - IMPEC Vaisselle fleur de cerisier vrac",
+      "machine": "Mélangeur 2 tonnes N°1",
+      "fiable": true,
+      "n_of_disponibles": 13,
+      "n_of_utilises": 11,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 50.0,
+      "cadence_recommandee": 33.94,
+      "trs_moyen_reference": 29.7,
+      "ecart_vs_theorique_pct": -32.1,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 29.7%).",
+        "Cadence recommandée (33.94 pcs/min) inférieure de 32.1% à la cadence théorique actuelle (50.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    },
+    {
+      "produit": "[VR006] - IMPEC Vaisselle pomme raisin vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "fiable": true,
+      "n_of_disponibles": 17,
+      "n_of_utilises": 14,
+      "n_of_reference": 3,
+      "cadence_theorique_actuelle": 50.0,
+      "cadence_recommandee": 36.0,
+      "trs_moyen_reference": 40.39,
+      "ecart_vs_theorique_pct": -28.0,
+      "justification": [
+        "Recommandation basée sur les 3 OF au meilleur TRS observé (TRS moyen de référence : 40.4%).",
+        "Cadence recommandée (36.00 pcs/min) inférieure de 28.0% à la cadence théorique actuelle (50.00 pcs/min) — même dans les meilleurs OF, la cadence théorique actuelle n'est pas atteinte ; à réévaluer."
+      ]
+    }
+  ]
+}
