@@ -82,6 +82,15 @@ class RecommendationConfig:
 
 
 @dataclass(frozen=True)
+class MLConfig:
+    min_total_rows_for_training: int = 100
+    n_estimators: int = 200
+    cv_folds: int = 5
+    random_state: int = 42
+    model_output_path: str = "models/cadence_model.joblib"
+
+
+@dataclass(frozen=True)
 class AppConfig:
     excel: ExcelConfig
     paths: PathsConfig
@@ -92,6 +101,7 @@ class AppConfig:
     analytics: AnalyticsConfig
     anomalies: AnomalyConfig
     recommendation: RecommendationConfig
+    ml: MLConfig
     project_root: Path
 
     def ensure_directories(self) -> None:
@@ -139,6 +149,7 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
     analytics_cfg = AnalyticsConfig(**raw.get("analytics", {}))
     anomalies_cfg = AnomalyConfig(**raw.get("anomalies", {}))
     recommendation_cfg = RecommendationConfig(**raw.get("recommendation", {}))
+    ml_cfg = MLConfig(**raw.get("ml", {}))
 
     config = AppConfig(
         excel=excel,
@@ -150,6 +161,7 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
         analytics=analytics_cfg,
         anomalies=anomalies_cfg,
         recommendation=recommendation_cfg,
+        ml=ml_cfg,
         project_root=project_root,
     )
     config.ensure_directories()

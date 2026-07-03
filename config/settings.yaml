@@ -99,3 +99,12 @@ recommendation:
   # Nombre d'OF de référence (les meilleurs TRS) utilisés pour calculer
   # la cadence recommandée. Si moins d'OF disponibles, tous sont utilisés.
   top_n_reference: 3
+
+ml:
+  # En-dessous de ce total de lignes exploitables, l'entraînement est
+  # refusé plutôt que de produire un modèle non fiable.
+  min_total_rows_for_training: 100
+  n_estimators: 200
+  cv_folds: 5
+  random_state: 42
+  model_output_path: "models/cadence_model.joblib"

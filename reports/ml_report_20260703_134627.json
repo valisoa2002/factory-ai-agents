@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-07-03T13:46:27.911942",
+  "n_rows_used": 204,
+  "n_folds": 5,
+  "cv_r2_mean": 0.7264931364545655,
+  "cv_r2_std": 0.07169578561133938,
+  "cv_mae_mean": 5.275485127078339,
+  "cv_mae_std": 0.8798592788518084,
+  "feature_importance": [
+    {
+      "feature": "num__cadence_theorique",
+      "importance": 12.692032625216028
+    },
+    {
+      "feature": "num__qte_produite",
+      "importance": 1.3978241448307753
+    },
+    {
+      "feature": "cat__atelier_Atelier IMPEC",
+      "importance": 0.4045259306893233
+    },
+    {
+      "feature": "cat__produit_[PK238] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "importance": 0.3251111159808645
+    },
+    {
+      "feature": "cat__machine_Remplisseuse automatique N°03",
+      "importance": 0.30843319277405284
+    },
+    {
+      "feature": "cat__produit_[PF241] - IMPEC Vaisselle pomme raisin Mini 250ml",
+      "importance": 0.254866730327884
+    },
+    {
+      "feature": "cat__machine_Remplisseuse automatique N°02",
+      "importance": 0.13737883770001394
+    },
+    {
+      "feature": "cat__produit_[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "importance": 0.1022509710445914
+    },
+    {
+      "feature": "cat__machine_Souffleuse semi automatique 2",
+      "importance": 0.09982070449480356
+    },
+    {
+      "feature": "cat__machine_Souffleuse automatique à 3 cavitées",
+      "importance": 0.09728798101029418
+    }
+  ],
+  "example_explanations": [
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "prediction": 26.186149999999998,
+      "ci_low": 12.192528850251662,
+      "ci_high": 40.17977114974833,
+      "explanations": [
+        "Cadence théorique augmente la cadence prédite (impact : +8.88 pcs/min)",
+        "Quantité produite augmente la cadence prédite (impact : +3.39 pcs/min)",
+        "Atelier = Atelier IMPEC diminue la cadence prédite (impact : -1.16 pcs/min)"
+      ]
+    },
+    {
+      "produit": "[FL016] - Flacon PET IMPEC Vaisselle Mini 250ml",
+      "machine": "Souffleuse semi automatique 1",
+      "prediction": 13.9266,
+      "ci_low": 8.877884077638752,
+      "ci_high": 18.975315922361247,
+      "explanations": [
+        "Cadence théorique diminue la cadence prédite (impact : -4.03 pcs/min)",
+        "Quantité produite augmente la cadence prédite (impact : +0.69 pcs/min)",
+        "Produit = [PK238] - IMPEC Vaisselle pomme raisin Maxi 1L diminue la cadence prédite (impact : -0.69 pcs/min)"
+      ]
+    },
+    {
+      "produit": "[PK238 PK] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "prediction": 1.6542641666666662,
+      "ci_low": 0.3720349765766926,
+      "ci_high": 2.93649335675664,
+      "explanations": [
+        "Cadence théorique diminue la cadence prédite (impact : -12.10 pcs/min)",
+        "Quantité produite diminue la cadence prédite (impact : -4.88 pcs/min)",
+        "Atelier = Atelier IMPEC augmente la cadence prédite (impact : +0.35 pcs/min)"
+      ]
+    }
+  ]
+}
