@@ -15,6 +15,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
+from src.utils.console import setup_console_encoding
+
+setup_console_encoding()
+
 from sqlalchemy import text
 
 from src.load.db import get_engine

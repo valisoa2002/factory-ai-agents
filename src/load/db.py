@@ -32,7 +32,10 @@ def build_connection_url(config: AppConfig) -> str:
     # quote_plus échappe les caractères spéciaux (@, :, /, %, #...) qui
     # casseraient sinon le format de l'URL de connexion.
     safe_password = quote_plus(password)
-    return f"postgresql+psycopg2://{db.user}:{safe_password}@{db.host}:{db.port}/{db.name}"
+    # Pilote pg8000 : 100% Python, sans DLL compilée. Choisi après un bug
+    # récurrent de psycopg2-binary sous Windows (messages d'erreur vides
+    # dus à un conflit de DLL OpenSSL — voir diagnose_pg.py de la Phase 4).
+    return f"postgresql+pg8000://{db.user}:{safe_password}@{db.host}:{db.port}/{db.name}"
 
 
 def get_engine(config: AppConfig) -> Engine:

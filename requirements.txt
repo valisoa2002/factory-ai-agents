@@ -6,7 +6,7 @@ PyYAML>=6.0
 
 # Phase 3-4 (Qualité, Historisation) — à activer bientôt
 SQLAlchemy>=2.0
-psycopg2-binary>=2.9
+pg8000>=1.31
 python-dotenv>=1.0
 
 # Phase 8 (Machine Learning) — plus tard
