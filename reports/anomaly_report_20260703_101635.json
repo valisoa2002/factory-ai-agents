@@ -1,0 +1,310 @@
+{
+  "generated_at": "2026-07-03T10:16:35.453182",
+  "n_anomalies": 5,
+  "n_insufficient_history": 41,
+  "anomalies": [
+    {
+      "code_of": "WH/MO/53879",
+      "produit": "[VR002] - IMPEC Vaisselle menthe citron vrac",
+      "machine": "Mélangeur 2 tonnes N°2",
+      "metric": "cadence_reelle",
+      "value": 3.72,
+      "group_mean": 34.95,
+      "group_std": 13.88,
+      "z_score": -2.25,
+      "message": "'cadence_reelle' = 3.72 est 2.3 écarts-types en-dessous de la moyenne habituelle de ce couple (34.95) — à investiguer."
+    },
+    {
+      "code_of": "WH/MO/53922",
+      "produit": "[VR002] - IMPEC Vaisselle menthe citron vrac",
+      "machine": "Mélangeur 2 tonnes N°2",
+      "metric": "trs_pct",
+      "value": 51.33,
+      "group_mean": 18.28,
+      "group_std": 16.05,
+      "z_score": 2.06,
+      "message": "'trs_pct' = 51.33 est 2.1 écarts-types au-dessus de la moyenne habituelle de ce couple (18.28) — à investiguer."
+    },
+    {
+      "code_of": "WH/MO/53692",
+      "produit": "[VR006] - IMPEC Vaisselle pomme raisin vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "metric": "cadence_reelle",
+      "value": 15.79,
+      "group_mean": 35.95,
+      "group_std": 9.52,
+      "z_score": -2.12,
+      "message": "'cadence_reelle' = 15.79 est 2.1 écarts-types en-dessous de la moyenne habituelle de ce couple (35.95) — à investiguer."
+    },
+    {
+      "code_of": "WH/MO/53822",
+      "produit": "[VR006] - IMPEC Vaisselle pomme raisin vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "metric": "cadence_reelle",
+      "value": 16.19,
+      "group_mean": 35.95,
+      "group_std": 9.52,
+      "z_score": -2.08,
+      "message": "'cadence_reelle' = 16.19 est 2.1 écarts-types en-dessous de la moyenne habituelle de ce couple (35.95) — à investiguer."
+    },
+    {
+      "code_of": "WH/MO/53589",
+      "produit": "[VR006] - IMPEC Vaisselle pomme raisin vrac",
+      "machine": "Mélangeur 2 tonnes N°3",
+      "metric": "trs_pct",
+      "value": 64.0,
+      "group_mean": 24.41,
+      "group_std": 15.96,
+      "z_score": 2.48,
+      "message": "'trs_pct' = 64.00 est 2.5 écarts-types au-dessus de la moyenne habituelle de ce couple (24.41) — à investiguer."
+    }
+  ],
+  "insufficient_history": [
+    {
+      "produit": "[FL009] - Flacon PET GAS'CARE Gel douche 300ml",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL011] - Flacon PET standard 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL014] - Flacon PET blanc standard 1L",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL018] - Flacon PET IMPEC lave main 350ml",
+      "machine": "Souffleuse semi automatique 2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL019] - Flacon PET CLEANAUTO 1L",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL020] - Flacon PET VAO Shampooing 300ml",
+      "machine": "Souffleuse semi automatique 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[FL025] - Flacon PET IMPEC Vaisselle Midi 500ml",
+      "machine": "Souffleuse automatique à 3 cavitées",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Remplisseuse automatique N°03",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF237 PF] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Scotcheuse IMPEC",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF238] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Etiquetteuse automatique N°2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF239] - IMPEC Vaisselle menthe citron Mini 250ml",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF326] - IMPEC Vaisselle pomme raisin Maxi 1L - ULYS",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF702] - MANJA Après-shampooing sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 5",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 6",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF704] - MANJA Sérum pour cheveux sachet",
+      "machine": "Ensacheuse automatique N° 7",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PF711] -  IMPEC Vaisselle menthe citron Midi 500ml",
+      "machine": "Remplisseuse automatique N°02",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK213] - MAGNEVA Shampooing Jaune 1L",
+      "machine": "Etiquetteuse automatique N°3",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK214] - MAGNEVA Shampooing Rose 1L",
+      "machine": "Etiquetteuse automatique N°2",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK214] - MAGNEVA Shampooing Rose 1L",
+      "machine": "Etiquetteuse automatique N°3",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Etiquetteuse automatique N°3",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Remplisseuse automatique N°01",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK236] - IMPEC Vaisselle menthe citron Maxi 1L",
+      "machine": "Remplisseuse automatique N°03",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK237 PK] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK237] - IMPEC Vaisselle fleur de cerisier Maxi 1L",
+      "machine": "Remplisseuse automatique N°03",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK238 PK] - IMPEC Vaisselle pomme raisin Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK240 PK] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK240] - IMPEC Vaisselle fleur de cerisier Mini 250ml",
+      "machine": "Remplisseuse automatique N°03",
+      "n_of": 2,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK292] - IMPEC Vaisselle assorti Mini 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK324] - IMPEC Vaisselle assorti Maxi 1L",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK474 PK] - IMPEC Lessive liquide EXPRESS 300ml",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[PK532] - MAGNEVA Shampooing assorti 250ml",
+      "machine": "Fardeleuse automatique N°1",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[VR031] - IMPEC Lave sol pomme vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[VR064] - IMPEC Encaustique acajou vrac",
+      "machine": "Résistance",
+      "n_of": 1,
+      "min_required": 3
+    },
+    {
+      "produit": "[VR086] - IMPEC Lessive liquide EXPRESS vrac",
+      "machine": "Mélangeur 2 tonnes N°4",
+      "n_of": 1,
+      "min_required": 3
+    }
+  ]
+}

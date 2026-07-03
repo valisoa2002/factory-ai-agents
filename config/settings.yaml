@@ -91,3 +91,11 @@ anomalies:
   # Un OF est signalé si sa valeur s'écarte de plus de N écarts-types de
   # la moyenne de son propre couple Produit x Machine.
   z_score_threshold: 2.0
+
+recommendation:
+  # Nombre minimum d'OF exploitables (hors BLOQUANT et anomalies) pour
+  # qu'une recommandation de cadence soit jugée fiable.
+  min_of_for_recommendation: 3
+  # Nombre d'OF de référence (les meilleurs TRS) utilisés pour calculer
+  # la cadence recommandée. Si moins d'OF disponibles, tous sont utilisés.
+  top_n_reference: 3
