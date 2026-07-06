@@ -91,6 +91,12 @@ class MLConfig:
 
 
 @dataclass(frozen=True)
+class LLMConfig:
+    model: str = "mistral-large-latest"
+    temperature: float = 0.2
+
+
+@dataclass(frozen=True)
 class AppConfig:
     excel: ExcelConfig
     paths: PathsConfig
@@ -102,6 +108,7 @@ class AppConfig:
     anomalies: AnomalyConfig
     recommendation: RecommendationConfig
     ml: MLConfig
+    llm: LLMConfig
     project_root: Path
 
     def ensure_directories(self) -> None:
@@ -150,6 +157,7 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
     anomalies_cfg = AnomalyConfig(**raw.get("anomalies", {}))
     recommendation_cfg = RecommendationConfig(**raw.get("recommendation", {}))
     ml_cfg = MLConfig(**raw.get("ml", {}))
+    llm_cfg = LLMConfig(**raw.get("llm", {}))
 
     config = AppConfig(
         excel=excel,
@@ -162,6 +170,7 @@ def load_config(config_path: str | Path = "config/settings.yaml") -> AppConfig:
         anomalies=anomalies_cfg,
         recommendation=recommendation_cfg,
         ml=ml_cfg,
+        llm=llm_cfg,
         project_root=project_root,
     )
     config.ensure_directories()

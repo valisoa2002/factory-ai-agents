@@ -108,3 +108,12 @@ ml:
   cv_folds: 5
   random_state: 42
   model_output_path: "models/cadence_model.joblib"
+
+llm:
+  # Le cerveau linguistique de l'agent (Phase 9) — comprend la question,
+  # choisit quel outil appeler (voir src/agent/tools.py), formule la
+  # réponse finale. Ne génère JAMAIS lui-même un chiffre : tous les
+  # chiffres viennent des outils (donc de vos calculs Python réels).
+  # Clé API : variable d'environnement CADENCE_TRS_API_KEY (voir .env).
+  model: "mistral-large-latest"
+  temperature: 0.2

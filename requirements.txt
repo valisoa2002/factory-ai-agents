@@ -1,17 +1,19 @@
-# Phase 2 (Extraction)
+# Phase 2 (Extraction) — requis maintenant
 pandas>=2.2
 openpyxl>=3.1
 numpy>=1.26
 PyYAML>=6.0
 
-# Phase 3-4 (Qualité, Historisation)
+# Phase 3-4 (Qualité, Historisation) — à activer bientôt
 SQLAlchemy>=2.0
 pg8000>=1.31
 python-dotenv>=1.0
 
-# Phase 8 (Machine Learning) 
+# Phase 8 (Machine Learning) — plus tard
 scikit-learn>=1.4
 shap>=0.45
 
-#Phase 9 (Agent conversationnel)
-mistralai==2.5.1
+# Phase 9 (Agent conversationnel avec LLM Mistral)
+# Épinglé car l'import (mistralai.client.Mistral) dépend de la structure
+# interne du SDK, qui a changé entre les versions majeures.
+mistralai>=2.5,<3.0

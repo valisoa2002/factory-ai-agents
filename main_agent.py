@@ -46,9 +46,11 @@ def main() -> int:
 
     print(f"Agent Cadence/TRS prêt — {len(df)} lignes en historique, "
           f"{df['produit'].nunique()} produit(s), {df['machine'].nunique()} machine(s).")
-    print("Posez vos questions (tapez 'quit' pour arrêter).\n")
 
-    agent = CadenceAgent(df, config)
+    agent = CadenceAgent(df, config, logger=logger)
+    mode = "LLM Mistral (compréhension avancée, tool calling)" if agent.llm_mode else "mots-clés local (Mistral indisponible)"
+    print(f"Mode : {mode}")
+    print("Posez vos questions (tapez 'quit' pour arrêter).\n")
 
     while True:
         try:
